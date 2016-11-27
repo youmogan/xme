@@ -1,0 +1,398 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>莽荒纪专题页</title>
+<style>
+*{margin:0;padding:0;font-family:微软雅黑}
+body{background-image:url(beijing.jpg);background-attachment:fixed}
+/*以下为头部导航栏*/
+#wws-top{width:1366px;height:35px;background-color:#ecece9;border:1px solid #898339;margin:0 auto}
+#wws-top-a{width:980px;height:35px;background-color:#ecece9;margin:0 auto}
+.wwstop{width:80px;height:25px;list-style:none;line-height:30px;border-right:1px solid #6CC;float:left;margin-top:5px;text-align:center}
+.wwsbob{width:122px;height:35px;border-right:none}
+.wwsbob a{font-weight:bolder;font-size:28px}
+.wwstop a{text-decoration:none;color:#699;font-family:"隶书"}
+/*以下为第二部分*/
+#wws-a-a{width:980px;height:360px;margin:0 auto}
+#wwsbianhua{opacity:0.7}
+#wwsbianhua:hover{opacity:1}
+/*以下为第三部分*/
+#wws-a-b{width:980px;height:42px;margin:0 auto;background-image:url(daohang.jpg);margin-top:3px}
+.wws-a-c{width:878px;height:42px;margin:0 auto}
+.wwspop{width:80px;height:25px;list-style:none;line-height:30px;float:left;margin-top:3px;text-align:center;margin-left:25px}
+.wwspop a{text-decoration:none;color:#FFF;font-family:"隶书";color:#FFF}
+/*以下为第四部分*/
+#wws-d-a{width:980px;height:315px;background-image:url(m3.jpg);margin:0 auto;margin-top:3px}
+.wws-d-c{width:453px;height:315px;float:left}
+.wws-d1{width:453px;height:35px}
+.wwsbiao{line-height:35px;margin-left:36px;color:#FC0;font-family:"华文新魏"}
+
+#wws-d-b{width:441px;height:275px;position:absolute;border:1px solid #FFF}
+#wws-d-bb{width:441px;height:275px;position:absolute}
+
+.wws-d-e{width:517px;height:315px;margin-left:10px;float:left}
+.wws-d3{width:517px;height:35px}
+.wws-d4{width:505px;height:235px;margin:0 auto}
+.wwsti{line-height:35px;margin-left:36px;color:#FC0;font-family:"华文新魏"}
+.wwsjian{color:#FFF;font-family:"隶书";line-height:30px}
+/*以下为第wu部分*/
+#wws-e-a{width:980px;height:358px;background-image:url(mbian.jpg);margin:0 auto;margin-top:3px}
+.wws-e-b{width:646px;height:358px;float:left}
+.wws-donga{width:646px;height:29px}
+.wwsdongb{line-height:35px;margin-left:38px;color:#FFC;font-family:"华文新魏"}
+.wws-piao{width:646px;height:320px}
+#wwsp1{width:500px;height:300px;float:left;margin-left:10px;margin-top:10px;border:1px solid #FFF}
+#wwsp1a{width:500px;height:300px;float:left;margin-left:10px;margin-top:10px;display:none;border:1px solid #FFF}
+#wwsp1b{width:500px;height:300px;float:left;margin-left:10px;margin-top:10px;display:none;border:1px solid #FFF}
+#wwsp1c{width:500px;height:300px;float:left;margin-left:10px;margin-top:10px;display:none;border:1px solid #FFF}
+#wwsp2{width:100px;height:65px;float:left;margin-left:10px;margin-top:10px;border:1px solid #FFF}
+#wwsp3{width:100px;height:65px;float:left;margin-left:10px;margin-top:13px;border:1px solid #FFF}
+#wwsp4{width:100px;height:65px;float:left;margin-left:10px;margin-top:13px;border:1px solid #FFF}
+#wwsp5{width:100px;height:65px;float:left;margin-left:10px;margin-top:13px;border:1px solid #FFF}
+.wws-e-c{width:324px;height:358px;float:left;margin-left:10px}
+.wws-e-ca{width:324px;height:37px}
+.wws-e-co{width:324px;height:321px}
+.wwsmeitu{line-height:40px;margin-left:36px;color:#FFF;font-family:"华文新魏"}
+.wws-ea{width:110px;height:135px;float:left;margin-left:32px;margin-top:18px}
+.wws-ea img{width:80px;height:100px;margin-left:15px;margin-top:17px}
+.wws-ea img:hover{width:102px;height:126px;;margin-left:0px;margin-top:0px;border:4px solid #FFF}
+/*以下为第6部分*/
+#wws-cha{width:980px;height:278px;background-image:url(mhuan.jpg);margin:0 auto;margin-top:5px}
+.wwszhouri{width:980px;height:40px}
+#wwsdong{
+				width: 900px;
+				height:236px;
+				margin:0 auto;
+				position: relative;
+				overflow: hidden;
+				border:1px solid #999;
+			}
+			#wwsdong ul{
+				width: 1080px;
+				list-style-type:none;
+				margin: 0;
+				padding: 0;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			#wwsdong ul li{float: left; width: 180px; height: 236px}
+			
+
+			
+
+
+
+.wwsmouse{line-height:44px;margin-left:36px;color:#000;font-family:"华文新魏"}
+
+/*以下为第7部分*/
+#wws-f{width:980px;height:600px;background-image:url(beijing.jpg);margin:0 auto;margin-top:50px;overflow:hidden}
+#wws-f1{width:978px;height:100px;border-bottom:#003 1px solid;color:#FFF;background-image:url(beijing.jpg);margin:0 auto}
+#wwsull li{width:978px;height:100px;border-bottom:#003 1px solid;margin:0 auto;list-style:none;background-image:url(xtx.jpg);background-repeat:no-repeat;background-position:930px 10px;margin-top:20px;color:#FFF}
+#wws-f2{background-color:#996;float:right}
+#wwsluna{background-color:#996;float:right;margin-right:10px}
+#wwslunb{background-color:#996;float:right;margin-right:10px}
+/*以下为第8部分*/
+#wwsdiba{width:1000px;height:110px;border-top:2px solid #999;margin:0 auto}
+.wwsdi{width:59px;height:16px;float:left;list-style:none;margin-top:10px}
+.wwsdiyi{margin-left:210px}
+.wwsdi a{text-decoration:none;color:#FFF;font-size:10px;line-height:12px}
+.wwsdier{width:600px;height:16px;margin-left:210px;list-style:none;margin-top:36px}
+.wwsdier a{text-decoration:none;color:#FFF;font-size:10px;line-height:12px}
+.wwsdisan{width:600px;height:16px;margin-left:244px;list-style:none;margin-top:12px}
+.wwsdisan a{text-decoration:none;color:#FFF;font-size:10px;line-height:12px}
+
+</style>
+<script>
+window.onload=function()
+{
+			var timer = null;
+							var oDiv = document.getElementById('wwsdong');
+							var oUl = oDiv.getElementsByTagName('ul')[0];
+							var aLi = oUl.getElementsByTagName('li');
+							oUl.innerHTML += oUl.innerHTML;
+							oUl.style.width = aLi[0].offsetWidth*aLi.length+'px';
+							var speed = -2;
+							function move() {
+								if(oUl.offsetLeft<-oUl.offsetWidth/2) {
+									oUl.style.left = 0;
+								}
+								if(oUl.offsetLeft>0) {
+									oUl.style.left = -oUl.offsetWidth/2+'px';
+								}
+								oUl.style.left = oUl.offsetLeft+speed+'px';
+							}
+							timer = setInterval(move,30);
+							oDiv.onmouseover = function() {
+								clearInterval(timer);
+							}
+							oDiv.onmouseout = function() {
+								timer = setInterval(move,30);
+							}
+						
+						
+	var owwsf1=document.getElementById("wws-f1");
+	var owwsf2=document.getElementById("wws-f2");	
+	var owwsull=document.getElementById("wwsull");
+	owwsf2.onclick=function()
+	{
+		var oLi = document.createElement("li");
+		var aLi = owwsull.getElementsByTagName("li");
+		oLi.innerHTML=owwsf1.value;
+		
+		
+		
+		if(aLi.length>0)
+		{
+			owwsull.insertBefore(oLi,aLi[0]);
+			owwsf1.value="道友，务必在此暴力输入......";
+		}
+		else
+		{
+			owwsull.appendChild(oLi);
+			owwsf1.value="道友，务必在此暴力输入......";
+		}
+	}
+
+	var odiv1=document.getElementById("wwsp1");
+	var odiv2=document.getElementById("wwsp2");
+	var odiv3=document.getElementById("wwsp3");
+	var odiv4=document.getElementById("wwsp4");
+	var odiv5=document.getElementById("wwsp5");
+	var odiv6=document.getElementById("wwsp1a");
+	var odiv7=document.getElementById("wwsp1b");
+	var odiv8=document.getElementById("wwsp1c");
+	odiv2.onmouseover=function()
+	{
+		odiv7.style.display="none";
+		odiv6.style.display="none";
+		odiv8.style.display="none";
+		odiv1.style.display="block";
+		
+	}
+	odiv3.onmouseover=function()
+	{
+		odiv1.style.display="none";
+		odiv7.style.display="none";
+		odiv8.style.display="none";
+		odiv6.style.display="block";
+		
+		
+	}
+	odiv4.onmouseover=function()
+	{
+		odiv1.style.display="none";
+		odiv6.style.display="none";
+		odiv8.style.display="none";
+		odiv7.style.display="block";
+		
+	}
+	odiv5.onmouseover=function()
+	{
+		odiv1.style.display="none";
+		odiv6.style.display="none";
+		odiv7.style.display="none";
+		odiv8.style.display="block";
+		
+	}
+		var oobtn1=document.getElementById("wwsluna");
+	var oobtn2=document.getElementById("wwslunb");
+    var odiv18=document.getElementById("wws-f");
+	oobtn1.onclick=function()
+	{
+		odiv18.style.overflow="scroll";
+		
+		
+		}
+		oobtn2.onclick=function()
+	{
+		odiv18.style.overflow="hidden";
+		
+		
+		}
+	
+	
+	
+}
+   
+
+</script>
+
+<script src="jquery.js">
+</script>
+<script>
+
+function danchu()
+{
+		$("#wws-d-b").fadeOut(3000,function(){$("#wws-d-b").fadeIn(12000);});
+	
+	
+	}
+</script>
+</head>
+
+<body>
+<!--第yi部分-->
+<div id="wws-top">
+<div id="wws-top-a">
+<li class="wwstop wwsbob"><a href="javascript:;">一本漫</a></li>
+<li class="wwstop"><a href="javascript:;">首页</a></li>
+<li class="wwstop"><a href="javascript:;">八卦</a></li>
+<li class="wwstop"><a href="javascript:;">视觉</a></li>
+<li class="wwstop"><a href="javascript:;">诱惑</a></li>
+<li class="wwstop"><a href="javascript:;">下载</a></li>
+<li class="wwstop"><a href="javascript:;">宽频</a></li>
+<li class="wwstop"><a href="javascript:;">博彩</a></li>
+<li class="wwstop"><a href="javascript:;">论坛</a></li>
+</div>
+</div>
+<!--第er部分-->
+<div id="wws-a-a"><img src="mm.jpg" id="wwsbianhua"/></div>
+
+<!--第三部分-->
+<div id="wws-a-b">
+<div class="wws-a-c">
+<li class="wwspop"><a href="javascript:;">专区首页</a></li>
+<li class="wwspop"><a href="javascript:;">动画介绍</a></li>
+<li class="wwspop"><a href="javascript:;">新闻动态</a></li>
+<li class="wwspop"><a href="javascript:;">故事剧情</a></li>
+<li class="wwspop"><a href="javascript:;">动画人物</a></li>
+<li class="wwspop"><a href="javascript:;">精彩图片</a></li>
+<li class="wwspop"><a href="javascript:;">内容下载</a></li>
+<li class="wwspop"><a href="javascript:;">动画展示</a></li>
+</div>
+</div>
+<!--第四部分-->
+<div id="wws-d-a">
+<div class="wws-d-c">
+<div class="wws-d1">
+<span class="wwsbiao">吾名纪宁</span>
+</div>
+<div id="wws-d-bb"><span style="line-height:35px;color:#FFF;font-family:'隶书'">
+&nbsp;&nbsp;纪宁，混沌宇宙掌控者，死后来到阴曹地府，经判官审前生判来世，投胎到了部族纪氏。这里，有夸父逐日，有后羿射金乌，更有为了逍遥长生，历三灾九劫，纵死无悔的无数修仙者。 纪宁也成为了一名修仙者，开始了他的修仙之路。<br />
+&nbsp;&nbsp;上古诞生之初，三界本为一片混沌。而混沌本就已神奇无比，已经孕育出尊尊祖神、真神乃至天神，又因出身的缘故，他们也被尊称为混沌祖神、混沌真神以及混沌天神。</span>
+</div>
+<div id="wws-d-b" onMouseOver="danchu()"  onMouseOut="danru()"><img src="mji.jpg"></div>
+
+
+
+
+<div class="wws-d-b1"></div>
+</div>
+<div class="wws-d-e">
+<div class="wws-d3">
+<span class="wwsti">剧情简介</span>
+</div>
+<div class="wws-d4">
+<span class="wwsjian">
+一本小说，就是一个世界。在《莽荒纪》这个世界里——有为了生存，和天斗，和地斗，和妖斗的部落人们。
+　　有为了逍遥长生，历三灾九劫，纵死无悔的修仙者。
+　　更有夸父逐日……
+　　更有后羿射金乌……
+　　而一天，纪宁在一个强大的部族‘纪氏’出生了……
+“快点走！”
+　　“你们都已经死了，都变成鬼了，快点。”
+　　“你是王爷？千万子民、三万铁骑？人世间的王爷在我阴间地府什么都不是！”</span>
+</div>
+</div>
+</div>
+<!--第wu部分-->
+<div id="wws-e-a">
+<div class="wws-e-b">
+<div class="wwsdonga"><span class="wwsdongb">海报</span></div>
+<div class="wws-piao">
+<div id="wwsp1"><img src="mda1.jpg" /></div>
+<div id="wwsp1a"><img src="md2.jpg" /></div>
+<div id="wwsp1b"><img src="md3.jpg" /></div>
+<div id="wwsp1c"><img src="md4.jpg" /></div>
+<div id="wwsp2"><img src="mxiao1.jpg" /></div>
+<div id="wwsp3"><img src="mxiao2.jpg" /></div>
+<div id="wwsp4"><img src="mxiao3.jpg" /></div>
+<div id="wwsp5"><img src="mxiao4.jpg" /></div>
+
+
+</div>
+
+
+
+</div>
+<div class="wws-e-c">
+<div class="wws-e-ca"><span class="wwsmeitu">美图</span></div>
+<div class="wws-e-co">
+<div class="wws-ea"><img src="mdong2.jpg" /></div>
+<div class="wws-ea"><img src="mdong4.jpg" /></div>
+<div class="wws-ea"><img src="mdong6.jpg" /></div>
+<div class="wws-ea"><img src="mdong1.jpg" /></div>
+
+
+</div>
+</div>
+</div>
+<!--第6部-->
+<div id="wws-cha">
+<div class="wwszhouri"><span class="wwsmouse">大千世界</span></div>
+	<div id='wwsdong'>
+						<ul>
+							<li><img src="mdong1.jpg"/></li>
+							<li><img src="mdong2.jpg"/></li>
+                            <li><img src="mdong3.jpg"/></li>
+							<li><img src="mdong4.jpg"/></li>
+                            <li><img src="mdong5.jpg"/></li>
+							<li><img src="mdong6.jpg"/></li>
+						</ul>
+					</div>
+
+<!--
+<div class="wwschaa">
+<div class="wwsra"><span class="wwsmouse">女主余薇</span></div>
+<div class="wwsrb"><img src="mnvzhu.jpg" /></div>
+</div>
+<div class="wwschab">
+<div id="wwsdiv1"><span class="wwszhan">大千世界</span></div>
+<div id="wwsBox">
+<ul id="wwstuul">
+    	<li><img src="mdong1.jpg" /></li>
+        <li><img src="mdong2.jpg" /></li>
+        <li><img src="mdong3.jpg" /></li>
+        <li><img src="mdong4.jpg" /></li>
+        <li><img src="mdong5.jpg" /></li>
+        <li><img src="mdong6.jpg" /></li>
+        
+    </ul>
+</div>
+</div>-->
+
+
+
+</div>
+
+
+
+
+<!--第7部分-->
+<div id="wws-f">
+<textarea id="wws-f1" >道友，务必在此暴力输入......</textarea>
+<input type="button" value="评论" id="wws-f2"  />
+<input type="button" value="收起评论" id="wwslunb"/>
+<input type="button" value="全部评论" id="wwsluna"/>
+<ul id="wwsull"></ul>
+</div>
+
+<!--第8部分-->
+<div id="wwsdiba">
+<li class="wwsdi wwsdiyi"><a href="javascript:;">关于本漫&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">公司新闻&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;服务条款&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;广告服务&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;商务洽谈&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;本漫招聘&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;客服中心&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;网站地图&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;版权所有&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;联系我们</a></li>
+<li class="wwsdier"><a href="javascript:;">Copyright  ©  2012-2016 Jilinshi benman ACG Technology Co., All Rights Reserved          &nbsp;本漫公司 &nbsp;  版权所有</a></li>
+<li class="wwsdisan"><a href="javascript:;">增值电信业务经营许可证吉B-2-4-20090003   广播电视节目制作经营许可证   文网文 [2009]011号</a></li>
+</div>
+</body>
+</html>

@@ -1,0 +1,366 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>海绵宝宝专题页</title>
+<style>
+*{margin:0;padding:0;font-family:微软雅黑}
+body{background-image:url(zuihouyi.jpg);background-attachment:fixed}
+/*以下为头部导航栏*/
+#wws-top{width:1366px;height:35px;background-color:#ecece9;border:1px solid #898339;margin:0 auto}
+#wws-top-a{width:980px;height:35px;background-color:#ecece9;margin:0 auto}
+.wwstop{width:80px;height:25px;list-style:none;line-height:30px;border-right:1px solid #6CC;float:left;margin-top:5px;text-align:center}
+.wwsbob{width:122px;height:35px;border-right:none}
+.wwsbob a{font-weight:bolder;font-size:28px}
+.wwstop a{text-decoration:none;color:#699;font-family:"隶书"}
+/*以下为第二部分*/
+wws-a-a{width:980px;height:360px;background-color:#CCC;margin:0 auto;background-image:url(hone.jpg)}
+#wws-a-a1{width:980px;height:360px;background-color:#CCC;margin:0 auto;background-image:url(haitwo.jpg)}
+/*以下为第三部分*/
+#wws-a-b{width:980px;height:42px;margin:0 auto;background-image:url(hhuan.jpg);margin-top:3px}
+.wws-a-c{width:878px;height:42px;margin:0 auto}
+.wwspop{width:80px;height:25px;list-style:none;line-height:30px;float:left;margin-top:3px;text-align:center;margin-left:25px}
+.wwspop a{text-decoration:none;color:#FFF;font-family:"隶书";color:#333}
+/*以下为第四部分*/
+#wws-d-a{width:980px;height:315px;background-image:url(her.jpg);margin:0 auto;margin-top:3px}
+.wws-d-c{width:453px;height:315px;float:left}
+.wws-d1{width:453px;height:35px}
+.wwsbiao{line-height:35px;margin-left:36px;color:#FFC;font-family:"华文新魏"}
+.wws-d-b{width:441px;height:275px;margin:0 auto;position:relative}
+#dsb{width:410px;height:260px;position:absolute;background-color:#F00;border:4px solid #00F}
+.wws-d-e{width:517px;height:315px;margin-left:10px;float:left}
+.wws-d3{width:517px;height:35px}
+.wws-d4{width:505px;height:235px;margin:0 auto}
+.wwsti{line-height:35px;margin-left:36px;color:#FC0;font-family:"华文新魏"}
+.wwsjian{color:#FFF;font-family:"隶书";line-height:30px}
+/*以下为第wu部分*/
+#wws-e-a{width:980px;height:358px;background-image:url(hsan.jpg);margin:0 auto;margin-top:3px}
+.wws-e-b{width:646px;height:358px;float:left}
+.wws-donga{width:646px;height:29px}
+.wwsdongb{line-height:35px;margin-left:38px;color:#FFC;font-family:"华文新魏"}
+.wws-piao{width:646px;height:320px}
+#wwsp1{width:500px;height:300px;float:left;margin-left:10px;margin-top:10px;border:2px solid #FFF}
+#wwsp1a{width:500px;height:300px;float:left;margin-left:10px;margin-top:10px;display:none;border:2px solid #FFF}
+#wwsp1b{width:500px;height:300px;float:left;margin-left:10px;margin-top:10px;display:none;border:2px solid #FFF}
+#wwsp1c{width:500px;height:300px;float:left;margin-left:10px;margin-top:10px;display:none;border:2px solid #FFF}
+#wwsp2{width:100px;height:65px;float:left;margin-left:10px;margin-top:10px;border:1px solid #FFF}
+#wwsp3{width:100px;height:65px;float:left;margin-left:10px;margin-top:13px;border:1px solid #FFF}
+#wwsp4{width:100px;height:65px;float:left;margin-left:10px;margin-top:13px;border:1px solid #FFF}
+#wwsp5{width:100px;height:65px;float:left;margin-left:10px;margin-top:13px;border:1px solid #FFF}
+.wws-e-c{width:324px;height:358px;float:left;margin-left:10px}
+.wws-e-ca{width:324px;height:37px}
+.wws-e-co{width:324px;height:321px}
+.wwsmeitu{line-height:40px;margin-left:36px;color:#000;font-family:"华文新魏"}
+.wws-ea{width:110px;height:135px;float:left;margin-left:32px;margin-top:18px}
+.wws-ea img{width:80px;height:100px;margin-left:15px;margin-top:17px}
+.wws-ea img:hover{width:102px;height:126px;;margin-left:0px;margin-top:0px;border:4px solid #FFF}
+/*以下为第6部分*/
+#wws-cha{width:980px;height:278px;background-image:url(hliu.jpg);margin:0 auto;margin-top:5px}
+.wwshuana{width:208px;height:244px;float:left;margin-top:18px;margin-left:44px}
+.wwshuanb{width:208px;height:244px;float:left;margin-top:18px;margin-left:20px}
+.wwshuanc{width:208px;height:244px;float:left;margin-top:18px;margin-left:20px}
+.wwshuand{width:208px;height:244px;float:left;margin-top:18px;margin-left:20px}
+.wwswws img{width:180px;height:200px;margin-left:14px;margin-top:22px}
+.wwswws img:hover{width:200px;height:236px;border:4px solid #FFF;margin-left:0px;margin-top:0px}
+
+
+
+/*.wwschaa{width:357px;height:278px;float:left}
+.wwsra{width:357px;height:48px}
+.wwsmouse{line-height:54px;margin-left:36px;color:#FFC;font-family:"华文新魏"}
+.wwsrb{width:331px;height:202px;margin:0 auto}
+.wwschab{width:613px;height:278px;float:left;margin-left:10px}
+#wwsdiv1{width:613px;height:39px}
+.wwszhan{line-height:44px;margin-left:36px;color:#FFC;font-family:"华文新魏"}
+#wwsBox{width:600px;height:236px;margin:0 auto;position:absolute;
+	overflow:hidden;margin-left:5px}
+
+#wwstuul{
+	width:1200px;
+	height:236px;
+	background-color:rgba(0,0,0,0.5);
+	position:absolute;
+}
+#wwstuul li{
+	width:200px;
+	height:236px;
+	float:left;
+	list-style:none;
+	position:relative;
+}
+#wwstuul li img{
+	width:200px;
+	height:236px;
+}*/
+
+/*以下为第7部分*/
+#wws-f{width:980px;height:600px;margin:0 auto;margin-top:50px;overflow:hidden;background-color:#f4f6f6}
+#wws-f1{width:978px;height:100px;border-bottom:#CCC 1px solid;color:#000;margin:0 auto;background-color:#f3f4ec}
+#wwsull li{width:978px;height:100px;border-bottom:#003 1px solid;margin:0 auto;list-style:none;background-image:url(xtx.jpg);background-repeat:no-repeat;background-position:930px 10px;margin-top:20px;color:#000}
+#wws-f2{background-color:#996;float:right}
+#wwsluna{background-color:#996;float:right;margin-right:10px}
+#wwslunb{background-color:#996;float:right;margin-right:10px}
+/*以下为第8部分*/
+#wwsdiba{width:980px;height:110px;border-top:2px solid #CCC;margin:0 auto;background-color:#fafbea}
+.wwsdi{width:59px;height:16px;float:left;list-style:none;margin-top:10px}
+.wwsdiyi{margin-left:208px}
+.wwsdi a{text-decoration:none;color:#000;font-size:10px;line-height:12px}
+.wwsdier{width:600px;height:16px;margin-left:208px;list-style:none;margin-top:36px}
+.wwsdier a{text-decoration:none;color:#000;font-size:10px;line-height:12px}
+.wwsdisan{width:600px;height:16px;margin-left:242px;list-style:none;margin-top:12px}
+.wwsdisan a{text-decoration:none;color:#000;font-size:10px;line-height:12px}
+</style>
+<script>
+window.onload=function()
+{
+	var odiv=document.getElementById("dsb");
+
+ odiv.onmouseover=function()
+{
+	odiv.style.left=0+"px";
+	 
+	 setInterval(function(){
+		 if(odiv.style.left<10+"px"){
+	 odiv.style.left=odiv.offsetLeft+10+"px";
+	 }
+	 
+	 else if(odiv.style.left==10+"px")
+	 {
+		 
+		  odiv.style.left=odiv.offsetLeft-10+"px";
+		  ;
+		 
+		 } 
+	 },100);	 
+	 }
+	 odiv.onmouseout=function()
+	 {
+		 
+		 odiv.style.left=1+"px";
+	}
+	var owwsf1=document.getElementById("wws-f1");
+	var owwsf2=document.getElementById("wws-f2");	
+	var owwsull=document.getElementById("wwsull");
+	owwsf2.onclick=function()
+	{
+		var oLi = document.createElement("li");
+		var aLi = owwsull.getElementsByTagName("li");
+		oLi.innerHTML=owwsf1.value;
+		
+		
+		
+		if(aLi.length>0)
+		{
+			owwsull.insertBefore(oLi,aLi[0]);
+			owwsf1.value="客官，请输入......";
+		}
+		else
+		{
+			owwsull.appendChild(oLi);
+			owwsf1.value="客官，请输入......";
+		}
+	}
+
+	var odiv1=document.getElementById("wwsp1");
+	var odiv2=document.getElementById("wwsp2");
+	var odiv3=document.getElementById("wwsp3");
+	var odiv4=document.getElementById("wwsp4");
+	var odiv5=document.getElementById("wwsp5");
+	var odiv6=document.getElementById("wwsp1a");
+	var odiv7=document.getElementById("wwsp1b");
+	var odiv8=document.getElementById("wwsp1c");
+	odiv2.onmouseover=function()
+	{
+		odiv7.style.display="none";
+		odiv6.style.display="none";
+		odiv8.style.display="none";
+		odiv1.style.display="block";
+		
+	}
+	odiv3.onmouseover=function()
+	{
+		odiv1.style.display="none";
+		odiv7.style.display="none";
+		odiv8.style.display="none";
+		odiv6.style.display="block";
+		
+		
+	}
+	odiv4.onmouseover=function()
+	{
+		odiv1.style.display="none";
+		odiv6.style.display="none";
+		odiv8.style.display="none";
+		odiv7.style.display="block";
+		
+	}
+	odiv5.onmouseover=function()
+	{
+		odiv1.style.display="none";
+		odiv6.style.display="none";
+		odiv7.style.display="none";
+		odiv8.style.display="block";
+		
+	}
+		var oobtn1=document.getElementById("wwsluna");
+	var oobtn2=document.getElementById("wwslunb");
+    var odiv18=document.getElementById("wws-f");
+	oobtn1.onclick=function()
+	{
+		odiv18.style.overflow="scroll";
+		
+		
+		}
+		oobtn2.onclick=function()
+	{
+		odiv18.style.overflow="hidden";
+		
+		
+		}
+	
+	
+}
+</script>
+
+</head>
+
+<body>
+<!--第yi部分-->
+<div id="wws-top">
+<div id="wws-top-a">
+<li class="wwstop wwsbob"><a href="javascript:;">一本漫</a></li>
+<li class="wwstop"><a href="javascript:;">首页</a></li>
+<li class="wwstop"><a href="javascript:;">八卦</a></li>
+<li class="wwstop"><a href="javascript:;">视觉</a></li>
+<li class="wwstop"><a href="javascript:;">诱惑</a></li>
+<li class="wwstop"><a href="javascript:;">下载</a></li>
+<li class="wwstop"><a href="javascript:;">宽频</a></li>
+<li class="wwstop"><a href="javascript:;">博彩</a></li>
+<li class="wwstop"><a href="javascript:;">论坛</a></li>
+</div>
+</div>
+<!--第er部分-->
+<div id="wws-a-a"></div>
+<div id="wws-a-a1"></div>
+<!--第三部分-->
+<div id="wws-a-b">
+<div class="wws-a-c">
+<li class="wwspop"><a href="javascript:;">专区首页</a></li>
+<li class="wwspop"><a href="javascript:;">动画介绍</a></li>
+<li class="wwspop"><a href="javascript:;">新闻动态</a></li>
+<li class="wwspop"><a href="javascript:;">故事剧情</a></li>
+<li class="wwspop"><a href="javascript:;">动画人物</a></li>
+<li class="wwspop"><a href="javascript:;">精彩图片</a></li>
+<li class="wwspop"><a href="javascript:;">内容下载</a></li>
+<li class="wwspop"><a href="javascript:;">动画展示</a></li>
+</div>
+</div>
+<!--第四部分-->
+<div id="wws-d-a">
+<div class="wws-d-c">
+<div class="wws-d1">
+<span class="wwsbiao">海绵宝宝Show Time</span>
+</div>
+<div class="wws-d-b"><div id="dsb"><img src="hthere.jpg" style="width:410px;height:260px" /></div></div>
+</div>
+<div class="wws-d-e">
+<div class="wws-d3">
+<span class="wwsti">剧情简介</span>
+</div>
+<div class="wws-d4">
+<span class="wwsjian">
+海绵宝宝是一块穿着短裤衬衫打领带、暴牙大眼睛的黄色海绵，住在比基尼海滩（裤头村、比奇堡）的一个菠萝里，他的宠物是一只会“猫~猫~”叫的海蜗牛小蜗，海绵宝宝喜欢捕捉水母，职业是蟹堡王（The Krusty Krab）里的头号厨师。派大星和姗迪都是他的朋友。海绵宝宝总是能给平静的世界制造麻烦，虽然闹出一些笑话，不过他总能摆脱困境，然后又制造出新的麻烦。</span>
+</div>
+</div>
+</div>
+<!--第wu部分-->
+<div id="wws-e-a">
+<div class="wws-e-b">
+<div class="wwsdonga"><span class="wwsdongb">海报</span></div>
+<div class="wws-piao">
+<div id="wwsp1"><img src="hda1.jpg" /></div>
+<div id="wwsp1a"><img src="hda2.jpg" /></div>
+<div id="wwsp1b"><img src="hda3.jpg" /></div>
+<div id="wwsp1c"><img src="hda4.jpg" /></div>
+<div id="wwsp2"><img src="hxiao1.jpg" /></div>
+<div id="wwsp3"><img src="hxiao2.jpg" /></div>
+<div id="wwsp4"><img src="hxiao3.jpg" /></div>
+<div id="wwsp5"><img src="hxiao4.jpg" /></div>
+
+
+</div>
+
+
+
+</div>
+<div class="wws-e-c">
+<div class="wws-e-ca"><span class="wwsmeitu">美图</span></div>
+<div class="wws-e-co">
+<div class="wws-ea"><img src="h004.jpg" /></div>
+<div class="wws-ea"><img src="h003.jpg" /></div>
+<div class="wws-ea"><img src="h002.jpg" /></div>
+<div class="wws-ea"><img src="h001.jpg" /></div>
+
+</div>
+</div>
+</div>
+<!--第6部-->
+<div id="wws-cha">
+<div class="wwshuana wwswws"><img src="hdong1.jpg" /></div>
+<div class="wwshuanb wwswws"><img src="hdong2.jpg" /></div>
+<div class="wwshuanc wwswws"><img src="hdong3.jpg" /></div>
+<div class="wwshuand wwswws"><img src="hdong4.jpg" /></div>
+
+
+
+<!--<div class="wwschaa">
+<div class="wwsra"><span class="wwsmouse">海绵宝宝Show Time</span></div>
+<div class="wwsrb"><img src="hbao.jpg" /></div>
+</div>
+<div class="wwschab">
+<div id="wwsdiv1"><span class="wwszhan">画展</span></div>
+<div id="wwsBox">
+<ul id="wwstuul">
+    	<li><img src="hdong1.jpg" /></li>
+        <li><img src="hdong2.jpg" /></li>
+        <li><img src="hdong3.jpg" /></li>
+        <li><img src="hdong4.jpg" /></li>
+        <li><img src="hdong5.jpg" /></li>
+        <li><img src="hdong6.jpg" /></li>
+        
+    </ul>
+</div>
+</div>
+
+-->
+
+</div>
+
+
+
+
+<!--第7部分-->
+<div id="wws-f">
+<textarea id="wws-f1" >客官，请输入......</textarea>
+<input type="button" value="评论" id="wws-f2"  />
+<input type="button" value="收起评论" id="wwslunb"/>
+<input type="button" value="全部评论" id="wwsluna"/>
+<ul id="wwsull"></ul>
+</div>
+<!--第8部分-->
+<div id="wwsdiba">
+<li class="wwsdi wwsdiyi"><a href="javascript:;">关于本漫&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">公司新闻&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;服务条款&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;广告服务&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;商务洽谈&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;本漫招聘&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;客服中心&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;网站地图&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;版权所有&nbsp;|</a></li>
+<li class="wwsdi "><a href="javascript:;">&nbsp;联系我们</a></li>
+<li class="wwsdier"><a href="javascript:;">Copyright  ©  2012-2016 Jilinshi benman ACG Technology Co., All Rights Reserved          &nbsp;本漫公司 &nbsp;  版权所有</a></li>
+<li class="wwsdisan"><a href="javascript:;">增值电信业务经营许可证吉B-2-4-20090003   广播电视节目制作经营许可证   文网文 [2009]011号</a></li>
+</div>
+</body>
+</html>
